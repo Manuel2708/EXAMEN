@@ -7,9 +7,9 @@ public class TablaMultiplicar
         ImprimirTablaDelSiete();
     }
 
-        <summary>
+     ///   <summary>
     
-        </summary>
+     ///   </summary>
     public static void ImprimirTablaDelSiete()
     {
         int numero = 7;
@@ -23,4 +23,5 @@ public class TablaMultiplicar
             Console.WriteLine($"{numero} x {i} = {resultado}");
         }
     }
+
 }
