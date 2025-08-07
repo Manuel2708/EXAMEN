@@ -7,9 +7,9 @@ public class SumaPares
         CalcularSumaPares();
     }
 
-        <summary>
+     ///   <summary>
 
-        </summary>
+     ///   </summary>
     public static void CalcularSumaPares()
     {
         int suma = 0; 
@@ -21,4 +21,5 @@ public class SumaPares
 
         Console.WriteLine($"La suma de todos los números pares del 1 al 100 es: {suma}");
     }
+
 }
